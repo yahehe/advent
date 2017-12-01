@@ -1,0 +1,21 @@
+{
+  "name": "yahehe.advent",
+  "version": "1.0.0",
+  "description": "Solutions for the 2017 Advent of Code",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^21.2.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "scripts": {
+    "01": "jest 01\\index.test.js",
+    "test": "jest **\\index.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
