@@ -14,7 +14,8 @@
   },
   "scripts": {
     "01": "jest 01\\index.test.js",
-    "test": "jest **\\index.test.js"
+    "02": "jest 02\\index.test.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC"

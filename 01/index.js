@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-export function first(input) {
+const first = (input) => {
   let sum = 0;
   // this is abuse, I know
   _.reduce(input, (acc, c) => {
@@ -13,9 +13,9 @@ export function first(input) {
   const bookends = input[0] === input[input.length - 1] ? parseInt(input[0], 10) : 0;
 
   return sum + bookends;
-}
+};
 
-export function second(input) {
+const second = (input) => {
   let sum = 0;
   const inc = input.length / 2;
 
@@ -26,4 +26,9 @@ export function second(input) {
     }
   }
   return sum;
-}
+};
+
+module.exports = {
+  first,
+  second,
+};
