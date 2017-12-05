@@ -66,9 +66,7 @@ test('second star', () => {
   const iterate = (dist) => {
     for (let j = 0; j < dist; j++) {
       const nearby = sumNeighbours(arr, x, y);
-      console.log(nearby);
       if (nearby > seed) {
-        console.log(nearby);
         break;
       }
       arr[x][y] = nearby;
