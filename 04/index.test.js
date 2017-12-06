@@ -520,5 +520,5 @@ test('first star', () => {
 });
 
 test('second star', () => {
-  expect(day.second(input)).toBe(451);
+  expect(day.second(input)).toBe(223);
 });

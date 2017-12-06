@@ -22,8 +22,6 @@ const checkPassPhrase2 = (phrase) => {
       .map(word => _.sortBy(word))
       .map(word => _.join(word, ''))
       .value();
-  console.log(_.split(phrase, ' '));
-  console.log(words);
   const unique = _.uniq(words);
   return words.length === unique.length;
 };
