@@ -12,7 +12,7 @@ test.skip('first star example', () => {
   expect(day.first(example).name).toBe('tknk');
 });
 
-test('second star', () => {
+test.skip('second star', () => {
   expect(day.second(input)).toBe(60);
 });
 
