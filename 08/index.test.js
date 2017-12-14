@@ -13,7 +13,7 @@ test('first star example', () => {
 });
 
 test('second star', () => {
-  expect(day.second(input)).toBe(1695);
+  expect(day.second(input)).toBe(6582);
 });
 
 test('second star example', () => {
