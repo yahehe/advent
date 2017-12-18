@@ -13,8 +13,8 @@ test.skip('first star example', () => {
   expect(day.first(example)).toBe(42);
 });
 
-test('second star', () => {
-  expect(day.second(input)).toBe(1695);
+test.skip('second star', () => {
+  expect(day.second(input)).toBe(6569);
 });
 
 test.skip('second star example', () => {
